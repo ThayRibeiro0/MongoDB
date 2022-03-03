@@ -43,6 +43,8 @@ const UserSchema = mongoose.Schema({
 //Collection
     mongoose.model('usuarios', UserSchema)
 
+const Victor = mongoose.model('usuarios')
+
     new UserSchema({
         nome: "Victor",
         sobrenome: "Lima",
