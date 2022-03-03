@@ -45,14 +45,14 @@ const UserSchema = mongoose.Schema({
 
 const Victor = mongoose.model('usuarios')
 
-    new UserSchema({
-        nome: "Victor",
-        sobrenome: "Lima",
-        email: "email@email.com",
-        idade: 19,
-        pais: "Brasil"
-    }).save().then(() => {
-        console.log("Usuário criado com sucesso!")
-    }).catch((err) => {
-        console.log("Houve um erro ao registrar o usuário: "+err)
-    }) 
+    new Victor({
+    nome: "Victor",
+    sobrenome: "Lima",
+    email: "email@email.com",
+    idade: 19,
+    pais: "Brasil"
+}).save().then(() => {
+    console.log("Usuário criado com sucesso!")
+}).catch((err) => {
+    console.log("Houve um erro ao registrar o usuário: "+err)
+})
