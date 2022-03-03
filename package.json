@@ -1,0 +1,27 @@
+{
+  "name": "aprendendo",
+  "version": "1.0.0",
+  "description": "aprendendo node-mogoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThayRibeiro0/MongoDB.git"
+  },
+  "keywords": [
+    "mongodb",
+    "mongoose"
+  ],
+  "author": "Thays",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThayRibeiro0/MongoDB/issues"
+  },
+  "homepage": "https://github.com/ThayRibeiro0/MongoDB#readme",
+  "dependencies": {
+    "node.js": "0.0.1-security",
+    "nodemon": "^2.0.15"
+  }
+}
